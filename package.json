@@ -1,0 +1,18 @@
+{
+  "name": "dotable",
+  "version": "0.0.1",
+  "description": "A thin sql wrapper corresponding to any table",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node --verbose --captureExceptions ."
+  },
+  "keywords": [
+    "mysql",
+    "sql"
+  ],
+  "author": "Akiyoshi Tanaka",
+  "license": "BSD-2-Clause"
+}
