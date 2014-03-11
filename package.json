@@ -7,12 +7,15 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jasmine-node --verbose --captureExceptions ."
+    "test": "node_modules/.bin/jasmine-node --verbose --captureExceptions ."
   },
   "keywords": [
     "mysql",
     "sql"
   ],
   "author": "Akiyoshi Tanaka",
-  "license": "BSD-2-Clause"
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "jasmine-node": "~1.14.2"
+  }
 }
