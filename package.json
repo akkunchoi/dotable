@@ -1,6 +1,6 @@
 {
   "name": "dotable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A thin sql wrapper corresponding to any table",
   "main": "index.js",
   "directories": {
